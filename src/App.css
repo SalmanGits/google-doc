@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .material-icons-outlined {
+    margin-right: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .head {
+    font-size: 18px;
+    margin: 0 10px;
   }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-right: 10px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    width: 100px;
+    height: 50px;
+  }
+  
+  
+
+  .body {
+    display: flex;
+    flex-direction: flex-end;
+    align-items: flex-end;
+    margin-left: 95%;
+    margin-top:-50%;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  
+  .material-icons {
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+  
+  .sep{
+    margin-right: 2%;
+  }
+  
+  span{
+    padding: 7px;
+  }
+
+  .div-star{
+    display: flex;
+  }
+  .star{
+    margin-top:-10px;
+  }
+  .doc{
+    margin-top:-2px;
+
+
+}
+.list{
+    margin-left: -181px;
+    margin-top: 15px;
+}
+.share{
+    display: flex;
+    gap: 10px;
+    margin-left:160px ;
+}
+.comma{
+    margin-left:600px;
+}
+.quill-main{
+    width: 75%;
+    margin-left: 200px;
+}
+.ql-editor{
+    height:90vh !important;
+    overflow: auto !important;
+}
+.share-btn{
+    display: flex;
+    justify-content: end;
+    margin-top: -30px;
+   
 }
